@@ -20,7 +20,6 @@ import Svg1 from '../Components/Svg1';
 import Svg2 from '../Components/Svg2';
 import Svg3 from '../Components/Svg3';
 import Slider from 'react-slick';
-// import Resume from '../Resume/Atanu-Karmakar-Resume.pdf'
 
 import logo from '../Images/Myself.jpg'
 
@@ -37,7 +36,7 @@ const Home = () => {
     };
 
     useEffect(() => {
-        // * it's from Aos library to to use scroll designing
+    
         Aos.init()
     }, [])
 
@@ -81,11 +80,7 @@ const Home = () => {
                             <Heading fontSize="3.3em" className='text' data-text="Sowmiya N"><span className='themeText'>Sowmiya N</span></Heading>
                         </Box>
                         <Text>Am a Front Developer passionate and experienced in building Web applications.</Text>
-                        {/* <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/1Z-kKGmGq6Yqez8bDB9c40IJQGCWGkGy9/view?usp=share_link", '_blank') }}>
-                            <a href={Resume} download="Atanu-Karmakar-Resume">
-                                <Button>Resume <GoCloudDownload /></Button>
-                            </a>
-                        </HStack> */}
+                
                     </Box>
                     <Box data-aos="fade-down">
                         <Svg1 />
@@ -93,7 +88,7 @@ const Home = () => {
                 </Flex>
             </Box>
 
-            {/* About me */}
+
 
             <Box id="aboutMe">
                 <Heading>About <span className='themeText'>me</span></Heading>
@@ -124,8 +119,6 @@ const Home = () => {
                     </Flex>
                 </Flex>
             </Box>
-
-            {/* Technical Skills section */}
             <Box id="skills">
                 <Heading>
                     Technical
@@ -183,7 +176,6 @@ const Home = () => {
             </Box>
 
 
-            {/* show projects */}
             <Box id="projects">
                 <Heading textAlign="center">Featured <span className='themeText'>Projects</span></Heading>
                 <Slider {...settings}>
@@ -193,27 +185,6 @@ const Home = () => {
                 </Slider>
             </Box>
 
-
-            {/* Github Statistics */}
-            {/* <Box id="githubStats">
-                <Heading textAlign="center">Github <span className='themeText'>stats</span></Heading>
-                <Center className='github-stats'>
-                    <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atanu8250&layout=compact&hide_border=true&theme=radical" alt="Most used languages" />
-                    <Image src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=atanu8250&theme=radical" alt="Github Stats" />
-                </Center>
-
-                <Center className='github-stats'>
-                    <Image src="https://github-readme-stats.vercel.app/api?username=Atanu8250&show_icons=true&locale=en&layout=compact&hide_border=true&theme=radical" alt="Github stats" />
-                    <Image src="https://github-readme-streak-stats.herokuapp.com/?user=Atanu8250&layout=compact&hide_border=true&theme=radical" alt="Current Streaks" />
-                </Center>
-
-                <Center>
-                    <GitHubCalendar username="atanu8250" color="#4a8af4" children={<ReactTooltip html />} />
-                </Center>
-            </Box> */}
-
-
-            {/* Contact me */}
             <Box id='contactMe'>
                 <Heading textAlign="center">Contact <span className='themeText'>Me</span></Heading>
                 <Flex flexDirection={["column", "column", "column", "row"]} alignItems="center">
@@ -241,12 +212,8 @@ const Home = () => {
                         <Flex className='contact-info'>
                             <HStack>
                                 <SiGmail color="#e34133" />
-                                <Text>sowmiyanallasivam@3434@gmail.com</Text>
+                                <Text>sowmiyanallasivam3434@gmail.com</Text>
                             </HStack>
-                            {/* <HStack>
-                                <FaPhoneAlt color="#00a14f" />
-                                <Text>+91 81013 03481</Text>
-                            </HStack> */}
                         </Flex>
                         <Flex gap={["10px", "20px", "20px", "40px"]}>
 
@@ -285,10 +252,9 @@ const Home = () => {
                 </Flex >
             </Box >
 
-            {/* footer */}
             <Flex id='footer'>
                 <Text>© Portfolio by Sowmiya N. | All rights reserved.</Text>
-                <Text>Made with 💖 by Sowmiya</Text>
+                <Text>Made with 💛 by Sowmiya</Text>
             </Flex>
         </Box >
     )
