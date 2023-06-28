@@ -1,4 +1,4 @@
-import { Box, Button, Center, Flex, Heading, HStack, Link, Tooltip, Image, Text } from '@chakra-ui/react'
+import { Box, Flex, Heading, HStack, Link, Tooltip, Image, Text } from '@chakra-ui/react'
 import { useToast } from '@chakra-ui/react'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import { GoCloudDownload } from 'react-icons/go'
-import { FaPhoneAlt } from 'react-icons/fa'
+// import { FaPhoneAlt } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 
 import { projects, skills } from '../Utils/data';
