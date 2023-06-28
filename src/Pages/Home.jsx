@@ -238,8 +238,8 @@ const Home = () => {
                                 </Tooltip>
                             </Link>
 
-                            <Link href="sowmiyanallasivam3434@gmail.com" target="_blank">
-                                <Tooltip label='sowmiyanallasivam3434@gmail.com'>
+                            <Link href="mailto:sowmiyanallasivam3434@gmail.com" target="_blank">
+                                <Tooltip label='Sowmiya'>
                                     <Box className='social-icons'>
                                         <Box>
                                             <Image w="100%" src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" />
